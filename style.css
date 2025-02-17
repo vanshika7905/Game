@@ -1,0 +1,81 @@
+*{
+    margin: 20;
+    padding: 20;
+}
+body{
+    background-color:#C69F89;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.9);
+    font-size: 8vmin;
+    color: #93032E; 
+    background-color:rgb(246, 246, 145);
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: #93032E;
+    color: #E9F1F7;
+    border: none;
+    border-radius: 1rem;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: #93032E;
+    color: #E9F1F7;
+    border: none;
+    border-radius: 1rem;
+}
+#msg{
+    color:black;
+    font-size:10vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap:4rem;
+}
+.hide{
+    display: none;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color:red;
+}
+.doreamon{
+    position: absolute;
+    left: 40px;
+}
+.shinchan{
+    position:absolute;
+    right: 40px;
+    height: 500px;
+}
